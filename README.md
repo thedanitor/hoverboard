@@ -6,6 +6,4 @@ This project is from the Day 36 code along video from Udemy's 50 projects in 50 
 
 ### Overall Impression
 
-
-
-### Things Learned
+For this project we made a grid of squares that change color as you hover over them. It was a cool visual effect that was, once again, simpler than I initially thought. This could be useful starter code for some kind of game or drawing app.

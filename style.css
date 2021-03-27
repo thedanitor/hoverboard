@@ -1,14 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 * {
     /* width not affected by padding or border */
     box-sizing: border-box;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    background-color: #111;
     display: flex;
-    flex-direction: column;
     /* Centered horizontally */
     align-items: center; 
     /* Centered vertically on 100% viewport */
@@ -19,4 +16,27 @@ body {
     overflow: hidden;
     /* no margins  */
     margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.square {
+    background-color: #1d1d1d;
+    box-shadow: 0 0 2px #000;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    /* 2s transition out */
+    transition: 2s ease;
+}
+
+.square:hover {
+    /* immediate transition in */
+    transition-duration: 0s;
 }
